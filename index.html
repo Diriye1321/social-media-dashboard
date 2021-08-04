@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
@@ -22,69 +22,7 @@
   <div class="top_color"></div>
 
   <main>
-    
-  <!-- 
-
-  Dark Mode
-
-  
-
-  @nathanf
-  1987
-  Followers
-  12 Today
-
-  @nathanf
-  1044
-  Followers
-  99 Today
-
-  @realnathanf
-  11k
-  Followers
-  1099 Today
-
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
-
-
-
-  Overview - Today
-
-  Page Views
-  87
-  3%
-
-  Likes
-  52
-  2%
-
-  Likes
-  5462
-  2257%
-
-  Profile Views
-  52k
-  1375%
-
-  Retweets
-  117
-  303%
-
-  Likes
-  507
-  553%
-
-  Likes
-  107
-  19%
-
-  Total Views
-  1407
-  12% --> 
-
+ 
     <section class="social_media">
       
       <h1>Social Media Dashboard</h1>
@@ -92,40 +30,228 @@
       
       <div class="s_boxes">
         <div class="box f-line">
-          <div class="box_s_f">
+          <div class="box_content">
             <div class="logo-user">
-              <i class="fab fa-facebook-square"></i>
+              <i class="f fab fa-facebook-square"></i>
               <h5>@nathanf</h5>
             </div>
             <div class="followers">
               <p class="big-num">1987</p>
               <p class="f-text">F O L L O W E R S</p>
             </div>
-            <div class="counter">
+            <div class="counter up">
               <i class="fas fa-caret-up"></i>
-              <p>12 Today</p>
+              <p class="counter-info">12 Today</p>
             </div>
           </div>  
         </div>
 
+            <!--TWITTER-->
+        <div class="box t-line">
+          <div class="box_content">
+            <div class="logo-user">
+            <i class="t fab fa-twitter"></i> 
+            <h5>@nathanf</h5>
+            </div>
+            <div class="followers">
+              <p class="big-num">1044</p>
+              <p class="f-text">F O L L O W E R S</p>
+            </div>
+            <div class="counter up">
+              <i class="fas fa-caret-up"></i>
+              <p class="counter-info">99 Today</p>
+            </div>
+          </div>
+        </div>
 
-        <div class="box box_s_t"></div>
-        <div class="box box_s_i"></div>
-        <div class="box box_s_y"></div>
-      </div>
+            <!--INSTAGRAM-->
+        <div class="box i-line">
+          <div class="box_content">
+            <div class="logo-user">
+              <i class="i fab fa-instagram"></i>
+              <h5>@realnathanf</h5>
+            </div>
+            <div class="followers">
+              <p class="big-num">11K</p>
+              <p class="f-text">F O L L O W E R S</p>
+            </div>
+            <div class="counter up">
+              <i class="fas fa-caret-up"></i>
+              <p class="counter-info">1099 Today</p>
+            </div>
+          </div>
+        </div>
+        
+      
+
+          <!--YOUTUBE-->
+        <div class="box y-line">
+          <div class="box_content">
+            <div class="logo-user">
+              <i class="y fab fa-youtube"></i>            
+              <h5>@Nathan F.</h5>
+            </div>
+            <div class="followers">
+              <p class="big-num">2893</p>
+              <p class="f-text">S U B S C R I B E R S</p>
+            </div>
+            <div class="counter down">
+              <i class="fas fa-caret-down"></i>            
+              <p class="counter-info">144 Today</p>
+            </div>
+          </div>
+        </div>
+      
+      </div>    
     </section>
 
     <section class="overview">
-      <div class="o_text"></div>
-      <div class="s_boxes">
-        <div class="f_v"></div>
-        <div class="f_l"></div>
-        <div class="i_l"></div>
-        <div class="i_v"></div>
-        <div class="t_r"></div>
-        <div class="t_l"></div>
-        <div class="y_l"></div>
-        <div class="y_v"></div>
+      <h2>Overview - Today</h2>
+
+      <div class="o_boxes">   <!--Done-->
+        <div class="box mrg-down">
+          <div class="box-content-o">
+            <div class="row1">
+              <p class="r-text">Page Views</p>
+              <i class="f fab fa-facebook-square"></i>
+            </div>
+            <div class="row1">
+              <p class="num">87</p>
+              <div class="chart">
+                <i class="fas fa-caret-up"></i>
+                <p class="counter-info">3%</p>
+              </div>
+              
+
+            </div>
+          </div>
+        </div>
+        
+        <div class="box mrg-down">        <!--Done-->
+          <div class="box-content-o">
+            <div class="row1">
+              <p class="r-text">Likes</p>
+              <i class="f fab fa-facebook-square"></i>
+            </div>
+            <div class="row1">
+              <p class="num">52</p>
+              <div class="chart down">
+                <i class="fas fa-caret-down"></i>            
+                <p class="counter-info">2%</p>
+              </div>
+              
+
+            </div>
+          </div>
+        </div>
+
+        <div class="box mrg-down">    <!--Done-->
+          <div class="box-content-o">
+            <div class="row1">
+              <p class="r-text">Likes</p>
+              <i class="i fab fa-instagram"></i>
+            </div>
+            <div class="row1">
+              <p class="num">5462</p>
+              <div class="chart up">
+                <i class="fas fa-caret-up"></i>
+                <p class="counter-info">2257%</p>
+              </div>
+              
+
+            </div>
+          </div>
+        </div>
+
+        <div class="box mrg-down">   <!--Done-->
+          <div class="box-content-o">
+            <div class="row1">
+              <p class="r-text">Profile Views</p>
+              <i class="i fab fa-instagram"></i>
+            </div>
+            <div class="row1">
+              <p class="num">52K</p>
+              <div class="chart up">
+                <i class="fas fa-caret-up"></i>
+                <p class="counter-info">1375%</p>
+              </div>
+              
+
+            </div>
+          </div>
+        </div>
+
+        <div class="box mrg-down">     <!--Done-->
+          <div class="box-content-o">
+            <div class="row1">
+              <p class="r-text">Retweets</p>
+              <i class="f fab fa-twitter"></i>
+            </div>
+            <div class="row1">
+              <p class="num">177</p>
+              <div class="chart up">
+                <i class="fas fa-caret-up"></i>
+                <p class="counter-info">303%</p>
+              </div>
+              
+
+            </div>
+          </div>
+        </div>
+
+        <div class="box mrg-down">    <!--Done-->
+          <div class="box-content-o">
+            <div class="row1">
+              <p class="r-text">Likes</p>
+              <i class="f fab fa-twitter"></i>
+            </div>
+            <div class="row1">
+              <p class="num">507</p>
+              <div class="chart up">
+                <i class="fas fa-caret-up"></i>
+                <p class="counter-info">553%</p>
+              </div>
+              
+
+            </div>
+          </div>
+        </div>
+
+        <div class="box mrg-down">    <!--Done-->
+          <div class="box-content-o">
+            <div class="row1">
+              <p class="r-text">Likes</p>
+              <i class="y fab fa-youtube"></i>            
+            </div>
+            <div class="row1">
+              <p class="num">107</p>
+              <div class="chart down">
+                <i class="fas fa-caret-up"></i>
+                <p class="counter-info">19%</p>
+              </div>
+              
+
+            </div>
+          </div>
+        </div>
+
+        <div class="box mrg-down">
+          <div class="box-content-o">
+            <div class="row1">
+              <p class="r-text">Total Views</p>
+              <i class="y fab fa-youtube"></i>            
+            </div>
+            <div class="row1">
+              <p class="num">1407</p>
+              <div class="chart down">
+                <i class="fas fa-caret-up"></i>
+                <p class="counter-info">12%</p>
+              </div>
+              
+
+            </div>
+          </div>
+        </div>
 
       </div>
     </section>
@@ -157,7 +283,7 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Abdullah Diriye</a>.
   </div>
 </body>
 </html>
