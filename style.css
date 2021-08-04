@@ -1,4 +1,4 @@
-/* VARIABLES */
+/* GLOBALES */
 :root {
             /* COLORS */
     --Lime-Green: hsl(163, 72%, 41%);
@@ -10,11 +10,11 @@
     
             /*Dark Theme*/
 
-    --Toggle: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
+    --Toggle: linear-gradient(hsl(210, 78%, 56%) to hsl(146, 68%, 55%)); 
     --Very-Dark-Blue-BG: hsl(230, 17%, 14%);
     --Very-Dark-Blue-Top-BG-Pattern: hsl(232, 19%, 15%);
     --Dark-Desaturated-Blue-Card-BG: hsl(228, 28%, 20%);
-    --Desaturated Blue (Text): hsl(228, 34%, 66%);
+    --Desaturated-Blue-Text: hsl(228, 34%, 66%);
     --White-Text: hsl(0, 0%, 100%);
 
             /*Light Theme*/
@@ -41,4 +41,98 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.box {
+    background-color: var(--Dark-Desaturated-Blue-Card-BG);
+    width: 16rem;
+    padding: 1.5rem;
+}
+
+.big-num {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.counter {
+    display: flex;
+    margin: 0 auto;
+    font-size: 0.5rem;
+    color: var(--Lime-Green);
+}
+
+
+/*----------------------------------------------------*/
+
+body {
+    background-color: var(--Very-Dark-Blue-BG);
+    color: var(--White-Text);
+    font-family: var(--inter-font);
+}
+
+/*top color bg*/
+
+
+main {
+    width: 80%;
+    margin: 3% auto;
+}
+
+.f-line {
+    border-top: var(--Facebook) solid 4px;
+    border-radius: 5px;
+}
+
+.social_media {
+
+}
+
+.social_media h1 {
+    font-weight: 700;
+}
+
+.social_media .sub-t {
+    color: var(--Desaturated-Blue-Text);
+    font-weight: 700;
+}
+
+.social_media .s_boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.social_media .s_boxes .box_s_f{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 9rem;
+}
+    
+.logo-user {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.logo-user i {
+    color: #4267B2;
+    font-size: 1.3rem;
+}
+
+.logo-user h5 {
+    margin-left: 6px;
+    color: var(--Desaturated-Blue-Text);
+}
+
+.logo-user p {
+    font-weight: 400;
+    font-size: 0.3rem;
+}
+
+.followers .f-text {
+    font-size: 0.9rem;
+    color: var(--Desaturated-Blue-Text);
 }
